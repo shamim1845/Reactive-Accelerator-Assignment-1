@@ -41,7 +41,7 @@ const Header = () => {
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <BrandLogo />
           <div className="flex items-center lg:order-2">
-            <Button text="Download" link="#" />
+            <Button text="Download" link="#" target={"_blank"} />
           </div>
           <div
             className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
